@@ -1,0 +1,38 @@
+{
+  "name": "passport_api_setup",
+  "version": "1.0.0",
+  "description": "Node.js Auth with JWT project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkennedy87/passport_jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "nodejs",
+    "passport",
+    "api"
+  ],
+  "author": "Grant Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkennedy87/passport_jwt/issues"
+  },
+  "homepage": "https://github.com/gkennedy87/passport_jwt#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
